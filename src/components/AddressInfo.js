@@ -109,7 +109,7 @@ const AddressInfo = () => {
             width: 200,
             height: 200,
             type: "svg",
-            image: "../kaspa-icon.png",
+            image: "../mirana-icon.png",
             dotsOptions: {
                 color: "#181D30",
                 type: "extra-rounded",

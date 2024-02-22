@@ -32,7 +32,7 @@ const KaspadInfoBox = () => {
                 </tr>
                 <tr>
                     <td colspan="2" className="text-center">
-                        <h3>KASPAD INFO</h3>
+                        <h3>MIRANA INFO</h3>
                     </td>
                 </tr>
                 <tr>
