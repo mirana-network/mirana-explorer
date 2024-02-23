@@ -7,10 +7,10 @@
 
 
 $color1: #F6F5F4;
-$color2: #14F1D9;
+$color2: #48bcdf;
 $color3: #519AA3;
-$color4: #7F8994;
-$color5: #181D30;
+$color4: #7f9394;
+$color5: #102730;
 $superdark: $color5;
 
 $theme-colors: (
@@ -179,7 +179,7 @@ body {
 //   }
 // }
 
-.big-mirana-icon {
+.big-kaspa-icon {
   position: relative;
   margin-bottom: -3rem;
   top: 0rem;
@@ -195,7 +195,7 @@ body {
 }
 
 @include media-breakpoint-up(md) {
-  .big-mirana-icon {
+  .big-kaspa-icon {
     width: 10rem;
     height: 10rem;
   }

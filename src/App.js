@@ -176,7 +176,7 @@ function App() {
                     <Nav.Item><NavLink className="nav-link fs-5" onClick={closeMenuIfNeeded} to={"/blocks"}>Blocks</NavLink></Nav.Item>
                     <Nav.Item><NavLink className="nav-link fs-5" onClick={closeMenuIfNeeded} to={"/txs"}>Transactions</NavLink></Nav.Item>
                   </Nav>
-                  <div className='ms-auto navbar-price'>${price} <span className="text-light">/ KAS</span></div>
+                  <div className='ms-auto navbar-price'>${price} <span className="text-light">/ MRN</span></div>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
@@ -211,7 +211,7 @@ function App() {
                   Made with <font className="fs-5" color="red">♥</font> by Mirana developers
                   <span className="ms-3">
                     <OverlayTrigger placement="left" overlay={<Tooltip id="github">Source code</Tooltip>}>
-                      <a className="blockinfo-link" href="https://github.com/lAmeR1/kaspa-explorer" target="_blank"><FaGithub size="1.3rem" /></a>
+                      <a className="blockinfo-link" href="https://github.com/mirana-network/mirana-explorer" target="_blank"><FaGithub size="1.3rem" /></a>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="donate">Donation address</Tooltip>}>
                       <Link className="blockinfo-link ms-3" to="/addresses/kaspa:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73"><BiDonateHeart size="1.3rem" /></Link>
@@ -226,14 +226,14 @@ function App() {
               </Row>
               <Row className="d-sm-none px-0">
                 <Col className="px-0">
-                  Made with <font className="fs-5" color="red">♥</font> by M developers
+                  Made with <font className="fs-5" color="red">♥</font> by MIRANA developers
                 </Col>
               </Row>
               <Row className="py-1 d-sm-none px-0">
                 <Col>
                   <span className="ms-2">
                     <OverlayTrigger placement="left" overlay={<Tooltip id="github">Source code</Tooltip>}>
-                      <a className="blockinfo-link" href="https://github.com/lAmeR1/kaspa-explorer" target="_blank"><FaGithub size="1.1rem" /></a>
+                      <a className="blockinfo-link" href="https://github.com/mirana-network/mirana-explorer" target="_blank"><FaGithub size="1.1rem" /></a>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="donate">Donation address</Tooltip>}>
                       <Link className="blockinfo-link ms-2" to="/addresses/kaspa:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73"><BiDonateHeart size="1.1rem" /></Link>

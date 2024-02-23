@@ -243,14 +243,14 @@ const AddressInfo = () => {
     //     <table className="blockinfo-table">
     //         <tr className="trow">
     //             <td>Balance</td>
-    //             <td>{addressBalance/100000000} KAS</td>
+    //             <td>{addressBalance/100000000} MRN</td>
     //         </tr>
     //         <tr>
     //             <td>UTXOs</td>
     //             <td>{utxos ? <ul>
     //                 {utxos
     //                 .sort((a,b) => {return b.utxoEntry.blockDaaScore - a.utxoEntry.blockDaaScore})
-    //                 .map(x => <li>{x.utxoEntry.amount/100000000} KAS ({x.outpoint.transactionId})</li>)}
+    //                 .map(x => <li>{x.utxoEntry.amount/100000000} MRN ({x.outpoint.transactionId})</li>)}
     //             </ul> : <>Loading UTXOs <Spinner animation="border" role="status" /></>}</td>
     //         </tr>
     //     </table>
