@@ -282,7 +282,7 @@ const AddressInfo = () => {
                 <Col sm={6} md={4}>
                     <div className="addressinfo-header mt-4">balance</div>
                     <div className="utxo-value d-flex">
-                        {addressBalance !== undefined ? <div className="utxo-amount">+{numberWithCommas(addressBalance / 100000000)} KAS</div> : <Spinner animation="border" variant="primary" />}</div>
+                        {addressBalance !== undefined ? <div className="utxo-amount">+{numberWithCommas(addressBalance / 100000000)} MRN</div> : <Spinner animation="border" variant="primary" />}</div>
                 </Col>
                 <Col sm={6} md={4}>
                     <div className="addressinfo-header mt-4 ms-sm-5">UTXOs count</div>
@@ -466,7 +466,7 @@ const AddressInfo = () => {
                         </Col>
                         <Col sm={6} md={4}>
                             <div className="utxo-header mt-3">amount</div>
-                            <div className="utxo-value d-flex flex-row"><div className="utxo-amount">+{numberWithCommas(x.utxoEntry.amount / 100000000)} KAS</div></div>
+                            <div className="utxo-value d-flex flex-row"><div className="utxo-amount">+{numberWithCommas(x.utxoEntry.amount / 100000000)} MRN</div></div>
                         </Col>
                         <Col sm={6} md={4}>
                             <div className="utxo-header mt-3">value</div>
