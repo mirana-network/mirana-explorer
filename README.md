@@ -1,6 +1,6 @@
 # KASPA EXPLORER
 
-This is the source code for Kaspa Explorer [https://explorer.kaspa.org](https://explorer.kaspa.org) written in JS with React.JS library.
+This is the source code for Kaspa Explorer [https://explorer.miranacoin.com](https://explorer.miranacoin.com) written in JS with React.JS library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
