@@ -202,7 +202,7 @@ const TransactionInfo = () => {
                                                 <div className="blockinfo-key mt-2">Amount</div>
                                                 <div className="utxo-value">
                                                     <span className="utxo-amount-minus">-{getOutputFromIndex(additionalTxInfo[tx_input.previous_outpoint_hash]
-                                                        .outputs, tx_input.previous_outpoint_index).amount / 100000000}&nbsp;KAS</span>
+                                                        .outputs, tx_input.previous_outpoint_index).amount / 100000000}&nbsp;MRN</span>
                                                 </div>
                                             </Col>}
                                             <Col sm={12} md={12} lg={12}>
@@ -248,7 +248,7 @@ const TransactionInfo = () => {
                                             <Col sm={6} md={6} lg={3}>
                                                 <div className="blockinfo-key mt-2 mt-lg-0">Amount</div>
                                                 <div className="utxo-value">
-                                                    <span className="utxo-amount">+{numberWithCommas(tx_output.amount / 100000000)}&nbsp;KAS</span>
+                                                    <span className="utxo-amount">+{numberWithCommas(tx_output.amount / 100000000)}&nbsp;MRN</span>
                                                 </div>
                                             </Col>
                                             <Col sm={12} md={12} lg={12}>

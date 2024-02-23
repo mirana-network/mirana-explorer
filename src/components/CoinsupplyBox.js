@@ -83,13 +83,13 @@ const CBox = () => {
                     <td className="cardBoxElement align-top">
                         Total</td>
                     <td className="">
-                        <div id="coins">{numberWithCommas(circCoins)} KAS
+                        <div id="coins">{numberWithCommas(circCoins)} MRN
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Max <span className="approx">(approx.)</span></td>
-                    <td className="pt-1">28,700,000,000 KAS</td>
+                    <td className="pt-1">28,700,000,000 MRN</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Mined</td>
